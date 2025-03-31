@@ -21,7 +21,7 @@ df_season_team = df_season.groupby('team_x').agg(
              'saves':'saves_sum',
              'penalties_missed':'penalties_missed_sum',
              'penalties_saved':'penalties_saved_sum'
-             })
+             }).reset_index()
 
 df_season_players = df_season.groupby('name').agg(
     {'goals_scored':'sum',
@@ -46,4 +46,4 @@ df_season_players = df_season.groupby('name').agg(
              'influence':'influence_mean',
              'creativity':'creativity_mean',
              'minutes':'minutes_mean'
-             })
+             }).reset_index()
