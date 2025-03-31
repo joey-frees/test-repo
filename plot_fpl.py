@@ -14,6 +14,7 @@ plt.ylabel('Combined goals/assists')
 plt.title('Goals scored/assists by team')
 plt.legend()
 
+# Add custom style
 plt.style.use('custom_style.mplstyle')
 
 plt.show()

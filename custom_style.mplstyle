@@ -4,7 +4,7 @@ figure.figsize:     5,4             # figure size in inches
 figure.facecolor:   white           # figure facecolor
 
 # Change to cyan, magenta, yellow and black color palette
-axes.prop_cycle:   cycler('color', ['c', 'm', 'y', 'k'])
+axes.prop_cycle : cycler('color', ["#C3DCD8", "#EFD1D4", "#DBD9DA", "#C5BD96"])
 
 # Remove top and right spines
 axes.spines.left:   True            # display axis spines
